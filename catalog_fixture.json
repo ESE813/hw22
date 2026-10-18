@@ -1,0 +1,13 @@
+import Category, Product
+
+categories = [
+    {'name': 'Electronics'},
+    {'name': 'Clothing'},
+    {'name': 'Books'},
+]
+
+products = [
+    {'name': 'Laptop', 'category': 'Electronics', 'price': 999.99},
+    {'name': 'T-shirt', 'category': 'Clothing', 'price': 19.99},
+    {'name': 'Novel', 'category': 'Books', 'price': 14.99},
+]
