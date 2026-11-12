@@ -8,7 +8,7 @@ from django.conf.urls.static import static
 app_name = CatalogConfig.name
 
 urlpatterns = [
-    path('home/', home, name='home'),
+    path('', home, name='home'),
     path('contacts/', contacts, name='contacts'),
     path('product/<int:pk>/', product_detail, name='product_detail'),
 ]

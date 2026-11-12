@@ -1,0 +1,49 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+/* Карточка товара */
+
+.product-card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Одинаковая высота изображений */
+
+.product-image {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+/* Если изображения нет */
+
+.product-image-placeholder {
+    width: 100%;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e9ecef;
+    color: #6c757d;
+}
+
+/* Оформление заголовков */
+
+h2 {
+    font-weight: bold;
+}
+
+/* Подвал */
+
+footer {
+    margin-top: 50px;
+}
